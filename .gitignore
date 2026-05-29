@@ -4,6 +4,7 @@ SFML_Game.vcxproj
 SFML_Game.vcxproj.filters
 SFML_Game.vcxproj.user
 SFML_Game/
+Dodle Jump MB.vcxproj.user
 sfml-audio-3.dll
 sfml-audio-d-3.dll
 sfml-graphics-3.dll
@@ -15,3 +16,5 @@ sfml-system-d-3.dll
 sfml-window-3.dll
 sfml-window-d-3.dll
 x64/
+Debug/
+Release/
