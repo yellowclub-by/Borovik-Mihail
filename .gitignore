@@ -1,20 +1,88 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+*.so.*
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Build directories
+build/
+Build/
+build-*/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+
+# vcpkg
+vcpkg_installed/
+
+# debug information files
+*.dwo
+
+# test output & cache
+Testing/
+.cache/
+
+# Visual Studio
 .vs/
-SFML Game_snake.sln
-SFML_Game.vcxproj
-SFML_Game.vcxproj.filters
-SFML_Game.vcxproj.user
-SFML_Game/
-Dodle Jump MB.vcxproj.user
-sfml-audio-3.dll
-sfml-audio-d-3.dll
-sfml-graphics-3.dll
-sfml-graphics-d-3.dll
-sfml-network-3.dll
-sfml-network-d-3.dll
-sfml-system-3.dll
-sfml-system-d-3.dll
-sfml-window-3.dll
-sfml-window-d-3.dll
+*.vsidx
+*.suo
+*.user
+*.ipch
+*.idb
+*.enc
+*.tlog
+*.recipe
+*.lastbuildstate
+Browse.VC.db
+Solution.VC.db
+DocumentLayout*.json
 x64/
 Debug/
 Release/
+ipch/
+AutoPCH/
